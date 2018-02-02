@@ -10,9 +10,23 @@ Optionally you can provide a MAC address list to filter output. Filter can be se
 compile
 =======
 
-This tool compiles under Linux
+This tool compiles under Linux:
 
-    $ gcc findmacs.c -o findmacs
+    $ make
+
+install
+=======
+
+To install (on '/usr/local'):
+
+    $ make install
+
+uninstall
+=======
+
+To uninstall:
+
+    $ make uninstall
 
 usage
 =====
